@@ -12,13 +12,14 @@ public class game extends Activity {
 
     Button b1, b2, b3, b4, b5, b6, b7, b8, b9;
 
-    int turn;
+    int turn, ccc;
+
 
     @Override
     public void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
         setContentView(R.layout.game);
-
+        ccc=3;
         b1 = (Button) findViewById(R.id.b1);
         b2 = (Button) findViewById(R.id.b2);
         b3 = (Button) findViewById(R.id.b3);
